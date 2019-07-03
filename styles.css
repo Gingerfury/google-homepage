@@ -1,0 +1,36 @@
+ul {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  overflow: hidden;
+  background-color: white;
+} 
+
+li a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgba(197, 193, 193, 0.144);
+}
+
+li c {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li c:hover {
+  background-color: rgba(197, 193, 193, 0.144);
+}
+
+input {
+    width: 560px;
+}
